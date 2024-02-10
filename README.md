@@ -4,4 +4,4 @@
 
 ## Примеры тестов
 
-E2E тесты на [Playwright](./playwright/README.md)
+E2E тесты на [Playwright](./playwright)
