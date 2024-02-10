@@ -16,7 +16,7 @@ test('demo', async ({ page }) => {
   await page.getByRole('button', { name: 'Visible After 5 Seconds' }).click();
 });
 
-test('demo playright', async ({ page }) => {
+test('demo playwright', async ({ page }) => {
   await page.goto('https://demo.playwright.dev/todomvc/');
   await page.goto('https://demo.playwright.dev/todomvc/#/');
   await page.getByPlaceholder('What needs to be done?').click();
